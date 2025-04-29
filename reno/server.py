@@ -62,5 +62,5 @@ class RenoServer:
 
 if __name__ == "__main__":
     # Default port is 2001 to avoid conflict with Tahoe (2000)
-    server = RenoServer(loss_rate=0.1)
+    server = RenoServer(2001,0.1)
     server.run()

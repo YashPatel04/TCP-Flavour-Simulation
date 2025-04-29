@@ -37,7 +37,7 @@ class RenoClient:
             print(f"Sent packet {seq}, cwnd={self.cwnd:.2f}")
             
             # Add a small delay to prevent overwhelming the network
-            time.sleep(0.005)
+            time.sleep(0.005)   
         except Exception as e:
             print(f"Error sending packet {seq}: {e}")
         

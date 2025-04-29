@@ -1,3 +1,25 @@
-GUI/venv/
+# Virtual environments
+/GUI/venv/
+venv/
+env/
+ENV/
+
+# Python cache files
 tahoe/__pycache__/
 reno/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.idea/
+.vscode/
+*.swp
+
+/submission

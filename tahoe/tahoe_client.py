@@ -10,7 +10,7 @@ class TahoeClient:
     def __init__(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.settimeout(client_timeout)
-        self.server_address = ('localhost', 2000)
+        self.server_address = ('localhost', 8000)
         self.cwnd = 1.0          # Start with window size of 1 segment
         self.ssthresh = 16.0     # Slow start threshold
         self.next_seq = 0        # Next sequence number to send
